@@ -1,0 +1,20 @@
+{
+    "name": "jerome-rdlv/mailjet-api",
+    "description": "Send e-mail through MailJet REST API",
+    "type": "wordpress-muplugin",
+    "require": {
+        "mailjet/mailjet-apiv3-php": "^1.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rdlv\\WordPress\\MailjetApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jérôme Mulsant",
+            "email": "jerome@rue-de-la-vieille.fr"
+        }
+    ]
+}
